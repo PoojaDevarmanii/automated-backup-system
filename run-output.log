@@ -1,0 +1,21 @@
+[2025-11-04 15:13:07] INFO: Starting backup of testfolder
+[2025-11-04 15:13:07] INFO: Backup created successfully → /c/Users/pooja/backup-system/backups/backup-2025-11-04-1513.tar.gz
+[2025-11-04 15:13:07] INFO: SHA256 checksum created → /c/Users/pooja/backup-system/backups/backup-2025-11-04-1513.tar.gz.sha256
+[2025-11-04 15:13:07] INFO: Backup process completed successfully.
+[2025-11-04 15:13:07] INFO: Starting backup of testfolder
+[2025-11-04 15:13:08] INFO: Backup created successfully → /c/Users/pooja/backup-system/backups/backup-2025-11-04-1513.tar.gz
+[2025-11-04 15:13:08] INFO: SHA256 checksum created → /c/Users/pooja/backup-system/backups/backup-2025-11-04-1513.tar.gz.sha256
+[2025-11-04 15:13:08] INFO: Backup process completed successfully.
+[2025-11-04 15:13:08] INFO: Starting backup of testfolder
+[2025-11-04 15:13:08] INFO: Backup created successfully → /c/Users/pooja/backup-system/backups/backup-2025-11-04-1513.tar.gz
+[2025-11-04 15:13:08] INFO: SHA256 checksum created → /c/Users/pooja/backup-system/backups/backup-2025-11-04-1513.tar.gz.sha256
+[2025-11-04 15:13:08] INFO: Backup process completed successfully.
+[2025-11-04 15:13:09] INFO: Starting backup of testfolder
+[2025-11-04 15:13:09] INFO: Backup created successfully → /c/Users/pooja/backups/backup-2025-11-04-1513.tar.gz
+[2025-11-04 15:13:09] INFO: SHA256 checksum created → /c/Users/pooja/backups/backup-2025-11-04-1513.tar.gz.sha256
+[2025-11-04 15:13:09] INFO: Backup process completed successfully.
+[2025-11-04 15:13:09] INFO: Starting backup of testfolder
+[2025-11-04 15:13:09] INFO: Backup created successfully → /c/Users/pooja/backups/backup-2025-11-04-1513.tar.gz
+[2025-11-04 15:13:10] INFO: Starting backup of testfolder
+[2025-11-04 15:13:10] INFO: Backup created successfully → /c/Users/pooja/backups/backup-2025-11-04-1513.tar.gz
+Usage: ./backup.sh [--dry-run] [--list] [--restore <archive> --to <dir>] [--config <file>] <source_folder>
