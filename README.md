@@ -46,11 +46,6 @@ cd backup-system
 
 Create a file named backup.sh using:
 
-nano backup.sh
-
-
-Paste your bash script (provided in this project).
-
 3️⃣ Make the script executable
 chmod +x backup.sh
 
@@ -90,8 +85,6 @@ You’ll see a history of backups and errors (if any).
 9️⃣ Automatically capture screenshot (Windows only)
 
 After running your backup, take a screenshot:
-
-powershell.exe -Command "Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $bmp = New-Object Drawing.Bitmap([System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Width,[System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Height); $graphics = [Drawing.Graphics]::FromImage($bmp); $graphics.CopyFromScreen(0,0,0,0,$bmp.Size); $bmp.Save('screenshots/backup_$(Get-Date -Format \"yyyy-MM-dd-HHmmss\").png');"
 
 1️⃣0️⃣ Run cleanup command (delete all old backups)
 ./backup.sh --cleanup
